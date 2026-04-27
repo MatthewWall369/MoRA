@@ -1,0 +1,214 @@
+Loaded cached Gutenberg corpus: 100 books, 68,493,179 chars
+Using GPU training on 1 detected GPU(s).
+Running full-data training on /GPU:0 ...
+
+Epoch 1/5 - 7597 full-data train steps
+Epoch 1/5
+/usr/local/lib/python3.12/dist-packages/keras/src/trainers/data_adapters/py_dataset_adapter.py:121: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+  self._warn_if_super_not_called()
+  step   200 | loss 2.9170 | 2.66 ms
+  step   400 | loss 2.4951 | 2.62 ms
+  step   600 | loss 2.3170 | 2.65 ms
+  step   800 | loss 2.2162 | 2.69 ms
+  step  1000 | loss 2.1508 | 2.74 ms
+  step  1200 | loss 2.1047 | 2.92 ms
+  step  1400 | loss 2.0689 | 2.57 ms
+  step  1600 | loss 2.0408 | 2.64 ms
+  step  1800 | loss 2.0173 | 2.86 ms
+  step  2000 | loss 1.9985 | 2.67 ms
+  step  2200 | loss 1.9827 | 2.72 ms
+  step  2400 | loss 1.9687 | 2.64 ms
+  step  2600 | loss 1.9565 | 2.59 ms
+  step  2800 | loss 1.9455 | 2.82 ms
+  step  3000 | loss 1.9363 | 2.80 ms
+  step  3200 | loss 1.9276 | 2.68 ms
+  step  3400 | loss 1.9197 | 3.00 ms
+  step  3600 | loss 1.9125 | 2.80 ms
+  step  3800 | loss 1.9059 | 2.58 ms
+  step  4000 | loss 1.9000 | 3.00 ms
+  step  4200 | loss 1.8943 | 2.76 ms
+  step  4400 | loss 1.8891 | 2.67 ms
+  step  4600 | loss 1.8842 | 2.63 ms
+  step  4800 | loss 1.8798 | 2.94 ms
+  step  5000 | loss 1.8756 | 2.70 ms
+  step  5200 | loss 1.8717 | 2.76 ms
+  step  5400 | loss 1.8679 | 2.79 ms
+  step  5600 | loss 1.8644 | 2.68 ms
+  step  5800 | loss 1.8611 | 2.84 ms
+  step  6000 | loss 1.8581 | 2.58 ms
+  step  6200 | loss 1.8551 | 2.66 ms
+  step  6400 | loss 1.8522 | 2.94 ms
+  step  6600 | loss 1.8494 | 2.72 ms
+  step  6800 | loss 1.8469 | 2.70 ms
+  step  7000 | loss 1.8444 | 2.70 ms
+  step  7200 | loss 1.8420 | 2.63 ms
+  step  7400 | loss 1.8398 | 2.63 ms
+7597/7597 - 33s - 4ms/step - accuracy: 0.4400 - loss: 1.8378 - val_accuracy: 0.4786 - val_loss: 1.8068
+
+Epoch 2/5 - 7597 full-data train steps
+Epoch 2/5
+  step   200 | loss 1.7531 | 2.71 ms
+  step   400 | loss 1.7541 | 2.65 ms
+  step   600 | loss 1.7515 | 2.63 ms
+  step   800 | loss 1.7522 | 2.78 ms
+  step  1000 | loss 1.7522 | 2.76 ms
+  step  1200 | loss 1.7517 | 2.80 ms
+  step  1400 | loss 1.7514 | 2.73 ms
+  step  1600 | loss 1.7515 | 2.71 ms
+  step  1800 | loss 1.7509 | 2.64 ms
+  step  2000 | loss 1.7507 | 2.73 ms
+  step  2200 | loss 1.7497 | 2.80 ms
+  step  2400 | loss 1.7498 | 2.56 ms
+  step  2600 | loss 1.7494 | 2.75 ms
+  step  2800 | loss 1.7488 | 2.64 ms
+  step  3000 | loss 1.7484 | 2.98 ms
+  step  3200 | loss 1.7480 | 2.73 ms
+  step  3400 | loss 1.7474 | 2.83 ms
+  step  3600 | loss 1.7469 | 2.82 ms
+  step  3800 | loss 1.7466 | 2.75 ms
+  step  4000 | loss 1.7463 | 2.64 ms
+  step  4200 | loss 1.7461 | 2.62 ms
+  step  4400 | loss 1.7456 | 2.99 ms
+  step  4600 | loss 1.7454 | 2.77 ms
+  step  4800 | loss 1.7451 | 2.90 ms
+  step  5000 | loss 1.7447 | 2.82 ms
+  step  5200 | loss 1.7442 | 2.81 ms
+  step  5400 | loss 1.7441 | 2.71 ms
+  step  5600 | loss 1.7440 | 2.69 ms
+  step  5800 | loss 1.7436 | 2.77 ms
+  step  6000 | loss 1.7432 | 2.86 ms
+  step  6200 | loss 1.7432 | 2.71 ms
+  step  6400 | loss 1.7430 | 2.81 ms
+  step  6600 | loss 1.7427 | 2.71 ms
+  step  6800 | loss 1.7423 | 2.79 ms
+  step  7000 | loss 1.7420 | 2.80 ms
+  step  7200 | loss 1.7417 | 2.72 ms
+  step  7400 | loss 1.7414 | 2.66 ms
+7597/7597 - 23s - 3ms/step - accuracy: 0.4622 - loss: 1.7412 - val_accuracy: 0.4835 - val_loss: 1.7992
+
+Epoch 3/5 - 7597 full-data train steps
+Epoch 3/5
+  step   200 | loss 1.7318 | 2.56 ms
+  step   400 | loss 1.7301 | 2.68 ms
+  step   600 | loss 1.7291 | 2.69 ms
+  step   800 | loss 1.7283 | 2.76 ms
+  step  1000 | loss 1.7281 | 2.76 ms
+  step  1200 | loss 1.7288 | 2.70 ms
+  step  1400 | loss 1.7286 | 2.67 ms
+  step  1600 | loss 1.7286 | 2.61 ms
+  step  1800 | loss 1.7289 | 2.65 ms
+  step  2000 | loss 1.7284 | 2.71 ms
+  step  2200 | loss 1.7281 | 2.66 ms
+  step  2400 | loss 1.7277 | 2.67 ms
+  step  2600 | loss 1.7276 | 2.81 ms
+  step  2800 | loss 1.7273 | 2.61 ms
+  step  3000 | loss 1.7270 | 2.60 ms
+  step  3200 | loss 1.7270 | 2.58 ms
+  step  3400 | loss 1.7268 | 2.62 ms
+  step  3600 | loss 1.7266 | 2.51 ms
+  step  3800 | loss 1.7263 | 2.87 ms
+  step  4000 | loss 1.7261 | 2.53 ms
+  step  4200 | loss 1.7259 | 2.81 ms
+  step  4400 | loss 1.7257 | 2.80 ms
+  step  4600 | loss 1.7257 | 2.78 ms
+  step  4800 | loss 1.7256 | 2.59 ms
+  step  5000 | loss 1.7255 | 2.64 ms
+  step  5200 | loss 1.7253 | 2.70 ms
+  step  5400 | loss 1.7251 | 2.67 ms
+  step  5600 | loss 1.7250 | 2.62 ms
+  step  5800 | loss 1.7248 | 2.55 ms
+  step  6000 | loss 1.7247 | 2.58 ms
+  step  6200 | loss 1.7246 | 2.90 ms
+  step  6400 | loss 1.7243 | 2.75 ms
+  step  6600 | loss 1.7243 | 2.65 ms
+  step  6800 | loss 1.7242 | 2.59 ms
+  step  7000 | loss 1.7241 | 2.70 ms
+  step  7200 | loss 1.7240 | 2.77 ms
+  step  7400 | loss 1.7239 | 2.69 ms
+7597/7597 - 22s - 3ms/step - accuracy: 0.4666 - loss: 1.7238 - val_accuracy: 0.4856 - val_loss: 1.7899
+
+Epoch 4/5 - 7597 full-data train steps
+Epoch 4/5
+  step   200 | loss 1.7202 | 2.88 ms
+  step   400 | loss 1.7187 | 2.69 ms
+  step   600 | loss 1.7178 | 2.70 ms
+  step   800 | loss 1.7187 | 2.65 ms
+  step  1000 | loss 1.7195 | 2.54 ms
+  step  1200 | loss 1.7191 | 2.60 ms
+  step  1400 | loss 1.7183 | 2.68 ms
+  step  1600 | loss 1.7180 | 2.68 ms
+  step  1800 | loss 1.7173 | 2.63 ms
+  step  2000 | loss 1.7168 | 2.79 ms
+  step  2200 | loss 1.7163 | 2.54 ms
+  step  2400 | loss 1.7162 | 2.64 ms
+  step  2600 | loss 1.7161 | 2.74 ms
+  step  2800 | loss 1.7162 | 2.85 ms
+  step  3000 | loss 1.7161 | 2.73 ms
+  step  3200 | loss 1.7161 | 2.64 ms
+  step  3400 | loss 1.7161 | 2.65 ms
+  step  3600 | loss 1.7162 | 2.72 ms
+  step  3800 | loss 1.7161 | 2.87 ms
+  step  4000 | loss 1.7161 | 2.77 ms
+  step  4200 | loss 1.7160 | 2.68 ms
+  step  4400 | loss 1.7158 | 2.62 ms
+  step  4600 | loss 1.7158 | 2.66 ms
+  step  4800 | loss 1.7157 | 2.75 ms
+  step  5000 | loss 1.7157 | 2.91 ms
+  step  5200 | loss 1.7156 | 2.73 ms
+  step  5400 | loss 1.7154 | 2.82 ms
+  step  5600 | loss 1.7154 | 2.79 ms
+  step  5800 | loss 1.7154 | 2.77 ms
+  step  6000 | loss 1.7152 | 2.75 ms
+  step  6200 | loss 1.7152 | 2.51 ms
+  step  6400 | loss 1.7151 | 2.62 ms
+  step  6600 | loss 1.7150 | 2.94 ms
+  step  6800 | loss 1.7150 | 2.66 ms
+  step  7000 | loss 1.7150 | 2.74 ms
+  step  7200 | loss 1.7149 | 2.64 ms
+  step  7400 | loss 1.7147 | 2.70 ms
+7597/7597 - 22s - 3ms/step - accuracy: 0.4688 - loss: 1.7146 - val_accuracy: 0.4868 - val_loss: 1.7708
+
+Epoch 5/5 - 7597 full-data train steps
+Epoch 5/5
+  step   200 | loss 1.7134 | 2.89 ms
+  step   400 | loss 1.7105 | 2.83 ms
+  step   600 | loss 1.7118 | 2.62 ms
+  step   800 | loss 1.7107 | 2.57 ms
+  step  1000 | loss 1.7102 | 2.80 ms
+  step  1200 | loss 1.7106 | 2.58 ms
+  step  1400 | loss 1.7105 | 2.90 ms
+  step  1600 | loss 1.7107 | 2.96 ms
+  step  1800 | loss 1.7104 | 2.69 ms
+  step  2000 | loss 1.7101 | 2.70 ms
+  step  2200 | loss 1.7099 | 2.71 ms
+  step  2400 | loss 1.7100 | 2.61 ms
+  step  2600 | loss 1.7101 | 2.51 ms
+  step  2800 | loss 1.7101 | 2.81 ms
+  step  3000 | loss 1.7100 | 2.76 ms
+  step  3200 | loss 1.7098 | 2.58 ms
+  step  3400 | loss 1.7097 | 2.73 ms
+  step  3600 | loss 1.7096 | 2.61 ms
+  step  3800 | loss 1.7096 | 2.85 ms
+  step  4000 | loss 1.7095 | 2.79 ms
+  step  4200 | loss 1.7095 | 2.54 ms
+  step  4400 | loss 1.7095 | 2.83 ms
+  step  4600 | loss 1.7094 | 2.74 ms
+  step  4800 | loss 1.7093 | 2.72 ms
+  step  5000 | loss 1.7095 | 2.74 ms
+  step  5200 | loss 1.7093 | 2.57 ms
+  step  5400 | loss 1.7092 | 2.60 ms
+  step  5600 | loss 1.7090 | 2.66 ms
+  step  5800 | loss 1.7089 | 2.67 ms
+  step  6000 | loss 1.7091 | 2.75 ms
+  step  6200 | loss 1.7090 | 2.65 ms
+  step  6400 | loss 1.7091 | 2.68 ms
+  step  6600 | loss 1.7090 | 2.71 ms
+  step  6800 | loss 1.7090 | 2.78 ms
+  step  7000 | loss 1.7090 | 3.36 ms
+  step  7200 | loss 1.7088 | 2.59 ms
+  step  7400 | loss 1.7087 | 2.75 ms
+7597/7597 - 22s - 3ms/step - accuracy: 0.4702 - loss: 1.7086 - val_accuracy: 0.4868 - val_loss: 1.7891
+
+Performance summary
+ /GPU:0 | 7597 train steps/epoch | 844 val steps/epoch | mean 2.95 ms/step | p90 2.86 ms | 2832502 tok/s | val_loss 1.7911 | val_bpb 2.5841 | val_acc 0.4843
+Saved benchmark plot: /content/dcb_benchmark_20260427_190324.png
